@@ -1,0 +1,41 @@
+.thanks_en {
+    position: relative;
+    top: 50px;
+    left: 200px;
+
+}
+
+.thanks_en p {
+    font-size: 200px;
+    font-family: serif;
+    font-weight: bold;
+    color: #f9f7f6
+}
+
+.thanks_ja {
+    position: absolute;
+    top: 100px;
+    left: 400px;
+
+
+}
+
+.thanks_ja p {
+    font-size: 20px;
+    color: #916b45
+}
+
+.form {
+    position: absolute;
+    top: 200px;
+    left: 530px;
+}
+
+.form button {
+    padding: 5px;
+    width: 100px;
+    border: none;
+    background: #a3907c;
+    color: #fff;
+    cursor: pointer;
+}

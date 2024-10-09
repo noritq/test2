@@ -1,0 +1,108 @@
+.header__inner {
+    margin: 0 auto;
+    padding: 3px;
+    text-align: center;
+    border-top: none;
+    border-bottom: 1px solid #ddd;
+    border-left: none;
+    border-right: none;
+    max-width: 1000px;
+}
+
+.admin__content {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 3px;
+}
+
+.admin__content-heading {
+    font-family: serif;
+    text-align: center;
+    color: #996633;
+    padding: 15px;
+    margin-bottom: -30px;
+}
+
+.admin__content-form {
+    margin: 0 auto;
+
+}
+
+.admin__content-form__index {
+    margin-top: 30px;
+}
+
+.admin__content-form__name {
+    margin-right: 20px;
+    width: 300px;
+    height: 30px;
+    border: 1px solid #525151;
+    background: #ddd;
+}
+
+.admin__content-form__gender {
+    margin-right: 20px;
+    height: 30px;
+    border: 1px solid #525151;
+    background: #ddd;
+}
+
+.admin__content-form__detail {
+    margin-right: 20px;
+    width: 150;
+    height: 30px;
+    border: 1px solid #525151;
+    background: #ddd;
+}
+
+.admin__content-form__date {
+    margin-right: 20px;
+    width: 100;
+    height: 30px;
+    border: 1px solid #525151;
+    background: #ddd;
+}
+
+.admin__content-export {
+    margin-top: 20px;
+}
+
+.admin__content-list {
+    margin-top: 30px;
+}
+
+.admin__content-table {
+    width: 1000px;
+    text-align: left;
+    border-collapse: collapse;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+
+}
+
+.admin__content-table-header th {
+    background: #996633;
+    color: white;
+    padding: 15px;
+}
+
+.admin__content-table-data td {
+    color: #644525;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.admin__conttent-logout {}
+
+.admin__conttent-logout-button {
+    position: absolute;
+    top: 30px;
+    left: 1200px;
+    background: #ddd;
+    border: gray;
+    color: gray;
+    border-radius: 3px;
+    padding: 5px 15px;
+    cursor: pointer;
+}

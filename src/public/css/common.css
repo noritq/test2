@@ -1,0 +1,14 @@
+.header__inner {
+    margin: 0 auto;
+    padding: 3px;
+    text-align: center;
+    border-top: 3px solid #ddd;
+    border-left: 3px solid #ddd;
+    border-right: 3px solid #ddd;
+    max-width: 1000px;
+}
+
+.header__logo {
+    font-family: serif;
+    color: #996633;
+}
