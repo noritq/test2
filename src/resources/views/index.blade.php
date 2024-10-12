@@ -111,13 +111,11 @@
                 <span class="form__group-required">※</span>
             </div>
              <div class="form__group-content_content">
-                <select name="content" defaultValue="選択してください">
+                <select name="category_id">
                     <option disabled selected>選択してください</option>
-                    <option value="商品のお届けについて">商品のお届けについて</option>
-                    <option value="商品の交換いついて">商品の交換について</option>
-                    <option value="商品トラブル">商品トラブル</option>
-                    <option value="ショップへのお問い合わせ">ショップへのお問い合わせ</option>
-                    <option value="その他">その他</option>
+            @foreach ($categories as $category)
+                    <option value="{{ $category['id'] }}" >{{ $category['content'] }}</option>
+             @endforeach
                 </select>
              </div>
         </div>

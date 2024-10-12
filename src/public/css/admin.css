@@ -69,7 +69,7 @@
 }
 
 .admin__content-list {
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 .admin__content-table {
@@ -93,9 +93,9 @@
     border-bottom: 1px solid #ddd;
 }
 
-.admin__conttent-logout {}
+.admin__content-logout {}
 
-.admin__conttent-logout-button {
+.admin__content-logout-button {
     position: absolute;
     top: 30px;
     left: 1200px;
@@ -105,4 +105,11 @@
     border-radius: 3px;
     padding: 5px 15px;
     cursor: pointer;
+}
+.pagination {
+       display: flex;
+       position:relative;
+       top: -20px;
+       left: 400px;
+       margin-bottom:0px;
 }
